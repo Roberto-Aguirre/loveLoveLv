@@ -1,14 +1,8 @@
 body{
-    /* background: url(necesario/corazones.jpg); */
+    background: url(necesario/corazones.jpg);
     background-size: 100%;
-    margin: 0 auto;
 }
 
-.centrar-div{
-    
-margin: 0 auto;
-
-}
 
 audio::-webkit-media-controls-panel{
     background-color: rgba(234, 190, 63, 90%);
@@ -20,12 +14,16 @@ audio{
 
 .imagenes-cuadros{
     width: 10%;
+    height: 10%;
+    margin: 10px;
     border-radius: 20px;
+    border: 4px black solid;
     transition-property: width;
+    box-shadow: 10px 5px 50px black;
 }
 
 .imagenes-cuadros:hover{
-    transform: scale(1.4);
+    transform: scale(1.8);
     transition: 200ms;
 }
 table td{
@@ -35,3 +33,4 @@ table td{
 table{
     display: flex;
 }
+
