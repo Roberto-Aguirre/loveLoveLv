@@ -1,36 +1,88 @@
 body{
     background: url(necesario/corazones.jpg);
     background-size: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+.centrar-div-audio{
+    display: flex;
+    /*Justify Content y align items*/
+    justify-content: center;
+    align-items: center;   
+}
+
+.audio{
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+/*!Seccion de audio*/
 
 
 audio::-webkit-media-controls-panel{
     background-color: rgba(234, 190, 63, 90%);
 }
-
-audio{
-    margin-top: 100px;
+#panelFotos{
+    margin: 0 0 ;
+    padding: 0 0;
 }
+
+.centrar{
+    width: 100%;
+}
+
+/*!Trasnformacion de fotos*/
 
 .imagenes-cuadros{
     width: 10%;
     height: 10%;
-    margin: 10px;
+    margin: 12px;
     border-radius: 20px;
     border: 4px black solid;
     transition-property: width;
     box-shadow: 10px 5px 50px black;
 }
-
 .imagenes-cuadros:hover{
     transform: scale(1.8);
     transition: 200ms;
 }
-table td{
-    margin: 10px;
+
+/*Formato centralizado*/
+
+.nota{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 50px;
+
 }
 
-table{
-    display: flex;
+.nota-fondo{
+    border: 10px solid goldenrod;
+    border-radius: 37px;
+    width: 30%;
+    height: 30%;
+    background: black;
+margin: 0 auto;
+padding: 35px;
+
 }
 
+.nota-fondo > p,h3{
+color: white;
+}
+
+.primer-mensaje{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:black;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5em;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+
+.primer-mensaje > p,h4 {
+    color:rgb(255, 55, 55);
+}

@@ -1,16 +1,19 @@
-const fotosPanel = document.getElementById("panelFotos");
+
 const objetoImagen = document.createElement("li");
 const imagen = document.createElement("img");
 
+mostrarImagenes()
+
 function mostrarImagenes(){
-for (let i = 1; i<=195 ; i++) {
+for (let i = 1; i<=192 ; i++) {
+    const fotosPanel = document.getElementById("panelFotos");
     const imagen = document.createElement("img");
     imagen.setAttribute("src",`frida/2 (${i}).jpg`)
     imagen.setAttribute("class","imagenes-cuadros");
-    document.body.append(imagen)
+    fotosPanel.append(imagen)
+}
 }
 
-}
-mostrarImagenes()
+let mangas = 5
 
-console.log(imagen);
+
