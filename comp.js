@@ -16,4 +16,3 @@ for (let i = 1; i<=192 ; i++) {
 }
 
 let mangas = 5
-
